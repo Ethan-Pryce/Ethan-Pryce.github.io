@@ -213,18 +213,37 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1em;
+		
 	}
+
 
 	h4 {
 		font-size: 0.8em;
+
 	}
 
 	h5 {
 		font-size: 0.8em;
+		text-indent: min(200px, 5vw);
+		
 	}
 
 	h6 {
 		font-size: 0.8em;
+		text-indent: min(200px, 5vw);
+	}
+
+	.components{
+		width: 40%;
+
+		display: inline-block;
+	}
+
+	.descriptor{
+		display: inline-block;
+		width: 40%;
+		margin-left: 10%;
+		margin-top: 0px;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -2699,6 +2718,10 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
+					color:black;
+					font-size: x-large;
+					background-color: rgba(255, 255, 255, 0.8);
+
 				}
 
 					.tiles article > a .content > :last-child {
@@ -2829,7 +2852,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 6em 0 0.1em 0 ;
 	}
 
 		#header .logo {
