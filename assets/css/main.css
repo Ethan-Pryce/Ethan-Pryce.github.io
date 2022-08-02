@@ -251,6 +251,15 @@ input, select, textarea {
 		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 			display: none;
 		}
+		
+		.tiles{
+			flex-direction: column;
+			justify-items: center;
+		}
+
+		h2 {
+			margin-left: 5vw;
+		}
 
 	}
 
@@ -258,11 +267,14 @@ input, select, textarea {
 
 		h2 {
 			font-size: 1em;
+			margin-left: 5vw;
 		}
 
 		h3 {
 			font-size: 0.8em;
 		}
+
+		
 
 	}
 
