@@ -2361,6 +2361,9 @@ input, select, textarea {
 
     display:inline-block;
 }
+.scheduleImage img {
+    width:100%;
+}
 
 .scheduleComponents
 {
