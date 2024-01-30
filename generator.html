@@ -47,36 +47,45 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1><a href="https://cocktailconcluder.ca/">Cocktail Concluder</a></h1>
-							<span class="image main"><img src="images/cocktailcompleter.png" alt="" /></span>
+							<h1><a href="https://colab.research.google.com/drive/1A150Qco-q7ZrDkkel_CIPNvP1c3aBD1E">Dungeons & Dragon's Map and Monster AI Generator</a></h1>
+							
+							
+							<span class="halfSize"><img src="images/monsterResult.png" alt="" /></span>
+								<p class="descriptor">A GPT-2 based text generator for DND 5e monsters. The dataset comes from SRD collections of free monsters collected using Python and processed. 
+									Sections of text were then separated and order randomized for training to allow more flexibility. 
+									<br/>
+									Overall results are acceptable as a starting point but still requires human curation and editing.
+									<br/> Model performs above expectations considering size of dataset, complexity of task and age of base model, mostly due to the care taken to separate the 
+									text into distinct sections. 
+									<br/> 
+									<br/> 
+
+								</p>
+
+								<span class="halfSize"><img src="images/mapResult.png" alt="" /></span>
+								<p class="descriptor">
+									A Stable-Diffusion model built with a small dataset of free community maps. Intentionally trained to always draw the exact same grid lines. The model was created because
+									no existing model could handle grid lines (DALL-E can now handle making grid maps). 
+									<br/> 
+									Overall results are useful in niche cases or with human editing and curation. 
+									<br/>
+									Model performs above expectations considering numerous challenges and scale of resources. This is likely due 
+									to a combination of high quality dataset and the nature of image generation AI being good at this particular task. 
+									<br/> 
+
+								</p>
+							
 							<div class="components">
 								<h5>Components</h4>
 								<ul >
-									<li>React</li>
-									<li>HTML + CSS + Javascript</li>
-									<li><a href="https://www.thecocktaildb.com/">TheCocktailDB</a></li>
-									<li>Python API requests</li>
-									<li>React API requests</li>	
+									<li>Python Web Scraping</li>
+									<li>Python</li>
+									<li>GPT-2</li>
+									<li>Stable-Diffusion</li>
+									<li>Google Collab</li>	
 								</ul>
 							</div>
-								<p class="descriptor">A react app that allows you to save money by showing how common different cocktail ingredients are. Putting in a combination of ingredients shows
-									you not only the drinks you can make but which single ingredient gives you the most new options. Created to help students build out their collection in a cost effective manner.
-									Uses data obtained from TheCocktailDB with a simple python script and manages all the data statically&#185; inside the site itself and hosted on Netlify.
-									<br/>
-									<br/>
-									<br/>
-
-									1: Static data storage was chosen due to the tiny size of the data and the speed at which not calling a database improves speed and cellular data usage. 
-									The whole site is 4% the size of the facebook landing page and has a Total Blocking Time of 0ms on average. 
-									An API call to TheCocktailDB is made to get pictures of drinks and this by far the slowest part of the whole site
-									<br/> 
-									<br/> 
-									<a href="https://github.com/Ethan-Pryce/CocktailCompleter" class="icon brands style2 fa-github"><span class="label">GitHub</span></a>
-									<a href="https://cocktailconcluder.ca/" class="icon solid style2 fa-solid fa-link"><span class="label">Cocktail Concluder</span></a>
-								</p>
-	
-								
-							</div>
+						</div>
 						</div>
 
 				<!-- Footer -->
