@@ -343,6 +343,13 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+
+/* Generator */ 
+.halfSize img{
+    max-width:45%;
+}
+
 /* Row */
 
 	.row {
@@ -1077,6 +1084,22 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+
+			.halfSize img{
+				max-width: 100%;
+			}
+			.halfSize + .descriptor {
+				width: 75%;
+			}
+
+			.scheduleFlex {
+				flex-direction: column;
+			}
+
+			.scheduleFlex > *{
+				min-width: 75%;
+			}
 
 			.row {
 				display: flex;
@@ -2381,10 +2404,7 @@ input, select, textarea {
 }
 
 
-/* Generator */ 
-.halfSize img{
-    max-width:45%;
-}
+
 
 /* Image */
 
